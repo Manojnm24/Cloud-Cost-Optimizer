@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+
+# Model files (optional if large)
+*.joblib
+*.h5
+
+# System files
+.DS_Store
+Thumbs.db
