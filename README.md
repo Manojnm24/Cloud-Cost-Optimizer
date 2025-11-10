@@ -19,11 +19,10 @@ It helps AWS users proactively identify unusual cost spikes and optimize their c
 ### 🧩 Project Structure
 
 CloudCostOptimizer/
-│
-├── app.py # Backend logic – loads model, fetches data, detects anomalies
-├── dashboard_app.py # Streamlit dashboard
-├── train_model.py # Model training script
-├── aws_cost_model.pkl # Pre-trained ML model
-├── aws_cost_history.csv # Example dataset
-├── requirements.txt # Python dependencies
-└── model/ # Optional model backups
+-├── app.py # Backend logic – loads model, fetches data, detects anomalies
+-├── dashboard_app.py # Streamlit dashboard
+-├── train_model.py # Model training script
+-├── aws_cost_model.pkl # Pre-trained ML model
+-├── aws_cost_history.csv # Example dataset
+-├── requirements.txt # Python dependencies
+-└── model/ # Optional model backups
